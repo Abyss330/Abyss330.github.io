@@ -7,20 +7,20 @@ body {
     background-color: #000000;
     overflow-y: hidden;
     overflow-x: hidden;
+    /*Tirar scrollbars e definir o fundo da pagina como preto.*/
 }
 </style> 
 </head>
 <body>
-<video src="assets/edgecast.mp4" poster="assets/standby.png"
-autoplay
-loop
-muted
->
+<video src="assets/edgecast.mp4" poster="assets/standby.png" autoplay loop muted>
+<!-- Video passando na TV se ele não carregar vai aparecer uma imagem de standby na TV. ele está em loop e é mudo para o navegador permitir autoplay... -->
 </video>
 <audio autoplay loop>
     <source src="assets/caretaker.ogg" type="audio/ogg"> 
     <source src="assets/caretaker.mp3" type="audio/mp3"> 
     Seu navegador não suporta este recurso.
+    <!-- A maioria dos navegadores não permitem autoplay
+    por isso está sem audio. mas no gmod vai tocar o som...-->
 </audio>
 </body>
 
