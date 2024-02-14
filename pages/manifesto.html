@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MANIFESTO</title>
+<style>
+body {
+    background-color: #000000;
+    overflow-y: hidden;
+}
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+    .manifesto{
+        min-height: 100vh;
+        width: 100%;
+        background-color: #000;
+        background-image: url(https://abyss330.github.io/assets/eye.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+</style>
+</head>
+<div class="manifesto"></div>
+<div id="chat-container">
+  <div id="chat-log"></div>
+  <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+  <button onclick="sendMessage()">Enviar</button>
+</div>
+<script>
+async function sendMessage() {
+  const userInput = document.getElementById("user-input").value;
+  document.getElementById("chat-log").innerHTML += `<p style="color: white"><strong>Você:</strong> ${userInput}</p>`;
+  document.getElementById("user-input").value = ""; // Limpa a entrada do usuário
+
+  const response = await fetch("https://api.openai.com/v1/completions", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer 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"
+    },
+    body: JSON.stringify({
+      model: "text-davinci-002", // ou outro modelo disponível
+      prompt: userInput,
+      max_tokens: 50 // Tamanho máximo da resposta
+    })
+  });
+
+  const data = await response.json();
+  const botResponse = data.choices[0].text.trim();
+  document.getElementById("chat-log").innerHTML += `<p><strong>Bot:</strong> ${botResponse}</p>`;
+}
+</script>
+</body>
+</html>
