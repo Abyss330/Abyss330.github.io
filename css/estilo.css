@@ -5,11 +5,13 @@
 
 body {
     background-color: black;
-   /* background: url(../assets/eye.gif); */
+   /* background: url(assets/eye.gif); */
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     margin: 0;
     border: solid white;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 header {
