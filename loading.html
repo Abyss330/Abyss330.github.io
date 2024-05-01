@@ -17,7 +17,7 @@ body {
 <video src="assets/edgecast.mp4" poster="assets/standby.png" autoplay loop muted>
 <!-- Video passando na TV se ele não carregar vai aparecer uma imagem de standby na TV. ele está em loop e é mudo para o navegador permitir autoplay... -->
 </video>
-<audio autoplay loop>
+<audio autoplay loop id="audioloading">
     <source src="assets/caretaker.ogg" type="audio/ogg"> 
     <source src="assets/caretaker.mp3" type="audio/mp3"> 
     Seu navegador não suporta este recurso.
@@ -25,6 +25,11 @@ body {
     por isso está sem audio. mas no gmod vai tocar o som...-->
 </audio>
 </body>
+
+<script>
+    var audio = document.getElementById("audioloading");
+    audio.volume = 0.5;
+</script>
 
 <!--
 Destinado à aqueles que querem roubar ou usar meu código:
