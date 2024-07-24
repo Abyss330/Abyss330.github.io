@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+/* .texto-animado{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.texto-animado span{
+    position: relative;
+}
+
+.texto-animado span::before{
+    content: "Youtuber";
+    color: #4AF626;
+    animation: words 20s infinite;
+}
+
+.texto-animado span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #000000;
+    border-left: 2px solid #4AF626;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Developer";
+    }
+    21%,40%{
+        content: "Designer";
+    }
+    41%,60%{
+        content: "GMOD Server Owner";
+    }
+    61%,80%{
+        content: "Gamer";
+    }
+    81%,100%{
+        content: "Minge";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+} */
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    justify-content: center;
+  }
+  
+  .typing-text h1{
+    width: 22ch;
+    animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: transparent;
+    text-shadow: 0 0 0 #ffffff;  
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
