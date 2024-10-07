@@ -23,6 +23,10 @@ a:hover {
     text-decoration: underline;
 }
 
+li::marker {
+    color: #e69710;
+}
+
 /* Menu de Navegação Lateral */
 
 header {
@@ -100,6 +104,7 @@ table {
 table h2 {
     font-size: 18px;
     font-weight: normal;
+    border-bottom: solid 1px #c1c1c1;
 }
 
 table h2 a {
@@ -107,10 +112,14 @@ table h2 a {
     font-weight: normal;
 }
 
-table ul {
-    border-top: solid 1px #c1c1c1;
+table tr td ul {
     text-align: left;
     padding-left: 20px;
+}
+
+ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 td {
