@@ -11,7 +11,7 @@ body{
 
 h1, h2, h3, h4, h5 {
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 a {
@@ -207,13 +207,11 @@ table ul {
 #fotoErmos {
     width: 408px;
     border: solid 1px #c8ccd1;
-    align-self: flex-start;
 }
 
 #fotoCidade {
     width: 322px;
     border: 1px solid #c8ccd1;
-    align-self: flex-start;
 }
 
 #fotoBracadeira {
