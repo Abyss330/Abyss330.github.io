@@ -259,14 +259,16 @@ table.imagemFaccao {
     margin-left: 12px;
     width:275px;
     border: 1px solid DimGrey; 
-    padding: 2px;
+    padding: 3px;
     box-shadow: 0px 0px 2px 2px DimGrey;
+    min-width: 270px;
 }
 
 tr.imagemFaccaoCategoria td {
     text-align: center; 
     border: 1px solid Grey;
-    padding: 1px;
+    padding: 3px;
+    font-weight: 400;
 }
 
 a#imagemTextoDesc {
@@ -281,7 +283,7 @@ tr.imagemFaccaoNome td {
     font-family: "Roboto", sans-serif; 
     font-size: 15px; 
     border: 1px solid Grey;
-    padding: 1px;
+    padding: 3px;
     font-weight: bold;
 }
 
