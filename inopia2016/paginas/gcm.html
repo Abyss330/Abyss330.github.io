@@ -80,7 +80,85 @@
             <p>Cidadão, você está sendo acusado do código municipal 62 ALARMES. A sua sentença é uma citação por má complacência.</p>
             <p>Você está sendo acusado do código de infração municipal 148 RESISTÊNCIA À PRISÃO. A sua sentença é de 10 ciclos de detenção.</p>
         </div>
-
+        <h3>Citação de Má-complacência</h3>
+        <p>Uma citação de Má-complacência é a punição corporal de um cidadão, atingindo-o com o pacificador.</p>
+        <p>Este procedimento deve ser efetuado com o indivíduo imobilizado e numa área segura.</p>
+        <h3>Detenção</h3>
+        <p>As pessoas que foram designadas à “ciclos” de confinamento devem ser deixadas inconscientes, imobilizadas e revistadas.</p>
+        <p>Depois de aplicar a acusação e o estatuto, o cidadão é transferido para uma cela da Jurisdição de Estabilização e introduza a sua pena no PDA.</p>
+        <p>O número máximo de ciclos durante o acusamento de um cidadão é 8.</p>
+        <h3>Veredito Terminal</h3>
+        <p>Um veredito terminal é a eliminação controlada de um indivíduo considerado uma ameaça à prosperidade social. É uma consequência de violações do NÍVEL DE PERIGO SOCIAL CINCO, ou inferior, se o índice de estabilidade for FRATURADO.</p>
+        <p>Os designados devem ser transferidos, pacificados, para uma cela na Jurisdição de Estabilização. Antes de os esterilizar, é necessário pedir um banimento de personagem, digitando /amputate <acusação>.</p>
+        <h3>Amputação Imediata</h3>
+        <p>A amputação imediata é a morte imediata de um indivíduo no local.</p>
+        <p>Um indivíduo designado para veredito terminal pode ser imediatamente amputado se seguir algum dos seguintes critérios:</p>
+        <ul>
+            <li>O indivíduo representa ou representará em breve uma ameaça direta às Forças de Vigilância.</li>
+            <li>O indivíduo está numa zona restrita ou prestes a fugir para uma zona restrita.</li>
+            <li>O Índice de Estabilização Política está em FRATURADO ou em ISENÇÃO DE JULGAMENTO.</li>
+            <li>O sujeito é designado para a esterilização de testemunhas.</li>
+            <li>Ordenado pelo COPOM ou pelos Líderes de Patrulha.</li>
+        </ul>
+        <h3>Documentação</h3>
+        <p>Todas as infrações ao código municipal devem ser documentadas no registro do indivíduo antes de ser acusado.</p>
+        <p>Para documentar uma transgressão, registre <b>apenas o número</b> da infração e deduza os pontos necessários. Alterar o estado do cidadão para DETIDO se estiver a ser condenado a ciclos, e novamente CIDADÃO quando for libertado. Por exemplo:
+        </p>
+        <div class="blocoColoridoTexto">
+            <p>99 | -4</p>
+            <p>148 | -8</p>
+            <p>ALTERAÇÃO DE ESTADO: DETIDO</p>
+        </div>
+        <p>Se um cidadão for procurado por uma infração, defina primeiro o seu estado civil como PROCURADO e, em seguida, adicione o registro como acima indicado, mas precedendo o número com [PROCURADO].</p>
+        <p>Os cidadãos que cooperam com as Forças de Vigilância podem receber Créditos Sociais à discrição da unidade, registrada como “COOPERAÇÃO”.</p>
+        <h3>Estado</h3>
+        <p>Aos cidadãos é atribuído um estado com base na sua posição aos olhos da Vigilância. Estes podem ser modificados pelas unidades da Guarda Civil Metropolitana através do seu ADP (Assistente Digital Pessoal).</p>
+        <h3>Cidadão</h3>
+        <p>Um membro normal e livre da força laboral da cidade.</p>
+        <h3>Detido</h3>
+        <p>Um prisioneiro que está atualmente detido e cumprindo a sua pena no bloco de detenção.</p>
+        <h3>Procurado</h3>
+        <p>Uma pessoa de interesse que é procurada por uma violação do código municipal. Isto irá alertar todas as câmeras próximas.</p>
+        <h3>ANTI-CIDADÃO</h3>
+        <p>Um maligno operando na cidade cuja cidadania foi revogada. Isso alertará todas as câmeras próximas.</p>
+        <h2>Índice de Estabilização Política</h2>
+        <p>O Índice de Estabilização Politica representa a estabilidade geral do distrito. Existem vários níveis diferentes que determinam o modo de funcionamento da Guarda Civil Metropolitana.</p>
+        <h3 style="color: DodgerBlue;">PRESERVADO</h3>
+        <p>Não se calcula que exista uma ameaça iminente à segurança da Cidade 11 e a harmonia civil é óptima.</p>
+        <ul>
+            <li>As operações e atividades da cidade podem continuar normalmente.</li>
+            <li>As armas de fogo devem ser desequipadas.
+                <ul>
+                    <li>Exceções: Entrega de vereditos terminais, escolta de detidos, arrombamento de portas, inspeção de identificação prioritária e varredura de zonas restritas.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3 style="color:#E1CE2F;">MARGINAL</h3>
+        <p>Uma insurreição civil está se manifestando dentro da cidade. Há uma potencial ameaça iminente à segurança da Cidade 11, e as unidades devem tomar medidas para restaurá-la.</p>
+        <ul>
+            <li>O serviço público geral de assistência está suspenso até que a estabilidade seja novamente preservada.</li>
+            <li>As armas de fogo podem ser equipadas.</li>
+        </ul>
+        <h3 style="color: red;">FRATURADO</h3>
+        <p>Há uma provável ameaça iminente à segurança da Cidade 11 e à integridade da Vigilância.</p>
+        <ul>
+            <li>As rações e o serviço público geral de assistência são suspensos até que a estabilidade seja novamente preservada.</li>
+            <li>Entra em vigor um toque de recolher de emergência.</li>
+            <li>Todas as violações de ATIVIDADE ANTI-CIDADÃ DE NÍVEL CINCO e superior estão agora sujeitas a um veredito terminal.</li>
+            <li>As armas de fogo devem ser equipadas.</li>
+        </ul>
+        <h3 style="color: #888888;">ISENÇÃO DE JULGAMENTO</h3>
+        <ul>
+            <li>As rações e o serviço público geral de assistência são suspensos até que a estabilidade seja novamente preservada.</li>
+            <li>Entra em vigor um toque de recolher de emergência.</li>
+            <li>Todas as violações estão agora sujeitas a um veredito terminal.</li>
+            <li>As armas de fogo devem ser equipadas.</li>
+        </ul>
+        <h3>Índice de localização</h3>
+        <p><i>Leia: <a href="indice.html">Índice de localização</a></i></p>
+        <p>É essencial estar atento e conhecer bem o ambiente que nos rodeia para navegar efetivamente pela cidade e chegar rapidamente ao local dos incidentes.</p>
+        <p>O índice de localização também descreve as restrições de zona: onde você ou a força laboral podem ir no distrito. Utilize-o em conjunto com o índice de estabilização atual para garantir que a sua rota de patrulha está cobrindo ao máximo as zonas permitidas.</p>
+        <h2>Operações da cidade</h2>
     </main>
 </body>
 </html>
