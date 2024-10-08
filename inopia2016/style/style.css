@@ -242,7 +242,6 @@ img#fotoMandamentos {
 .imagemDireita {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .bordaImagem {
