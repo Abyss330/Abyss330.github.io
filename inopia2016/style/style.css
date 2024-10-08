@@ -213,6 +213,11 @@ ul ul {
 
 /* Imagens */
 
+img#fotoMandamentos {
+    width: 300px;
+    border: solid 1px #c8ccd1;
+}
+
 #fotoErmos {
     width: 408px;
     border: solid 1px #c8ccd1;
@@ -242,6 +247,7 @@ ul ul {
     text-align: center;
     margin-top: 15px;
     margin-left: 15px;
+    align-items: center;
 }
 
 .bordaImagem span {
