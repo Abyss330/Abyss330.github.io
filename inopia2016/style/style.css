@@ -298,3 +298,13 @@ tr.imagemFaccaoDesc td {
     border: 1px solid Grey;
     font-style: italic;
 }
+
+/* Outros */
+
+.blocoColoridoTexto {
+    background-color: #4c4c4c;
+    padding: 12px;
+    margin: 12px 0;
+    font-family: monospace, sans-serif;
+    font-size: 12px;
+}
