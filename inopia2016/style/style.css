@@ -18,6 +18,15 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
 }
 
+h3{
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 a {
     color:#e69710;
     text-decoration: none;
@@ -29,6 +38,10 @@ a:hover {
 
 li::marker {
     color: #e69710;
+}
+
+.blocoColoridoTexto li::marker {
+    color: #c1c1c1;
 }
 
 /* Menu de Navegação Lateral */
@@ -122,6 +135,11 @@ h1#nomePagina {
 }
 
 ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ol li {
     margin-top: 5px;
     margin-bottom: 5px;
 }

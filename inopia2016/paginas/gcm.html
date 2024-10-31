@@ -131,7 +131,7 @@
         <div class="blocoColoridoTexto">
             <p>VOCÊ ESTÁ SENDO ACUSADO DE | CÓDIGO DA CIDADE | ### NOME DA VIOLAÇÃO | VEREDITO</p>
             <p>Por exemplo:</p>
-            <p>Cidadão, você está sendo acusado do código municipal 62 ALARMES. A sua sentença é uma citação por má complacência.</p>
+            <p>Cidadão, você está sendo acusado do código municipal 62 ALARME. A sua sentença é uma citação por má-complacência.</p>
             <p>Você está sendo acusado do código de infração municipal 148 RESISTÊNCIA À PRISÃO. A sua sentença é de 10 ciclos de detenção.</p>
         </div>
         <h3>Citação de Má-complacência</h3>
@@ -141,7 +141,7 @@
         <p>As pessoas que foram designadas à “ciclos” de confinamento devem ser deixadas inconscientes, imobilizadas e revistadas.</p>
         <p>Depois de aplicar a acusação e o estatuto, o cidadão é transferido para uma cela da Jurisdição de Estabilização e introduza a sua pena no PDA.</p>
         <p>O número máximo de ciclos durante o acusamento de um cidadão é 8.</p>
-        <h3>Veredito Terminal</h3>
+        <h3 id="vt">Veredito Terminal</h3>
         <p>Um veredito terminal é a eliminação controlada de um indivíduo considerado uma ameaça à prosperidade social. É uma consequência de violações do NÍVEL DE PERIGO SOCIAL CINCO, ou inferior, se o <a href="gcm.html#indiceestabilidade">índice de estabilidade</a> for FRATURADO.</p>
         <p>Os designados devem ser transferidos, pacificados, para uma cela na Jurisdição de Estabilização. Antes de os esterilizar, é necessário pedir um banimento de personagem, digitando /amputate <acusação>.</p>
         <h3>Amputação Imediata</h3>
@@ -152,7 +152,7 @@
             <li>O indivíduo está numa zona restrita ou prestes a fugir para uma zona restrita.</li>
             <li>O Índice de Estabilização Política está em FRATURADO ou em ISENÇÃO DE JULGAMENTO.</li>
             <li>O sujeito é designado para a esterilização de testemunhas.</li>
-            <li>Ordenado pelo COPOM ou pelos Líderes de Patente.</li>
+            <li>Ordenado pela Central ou pelos Líderes de Patente.</li>
         </ul>
         <h3>Documentação</h3>
         <p>Todas as infrações ao código municipal devem ser documentadas no registro do indivíduo antes de ser acusado.</p>
@@ -164,16 +164,16 @@
             <p>ALTERAÇÃO DE ESTADO: DETIDO</p>
         </div>
         <p>Se um cidadão for procurado por uma infração, defina primeiro o seu estado civil como PROCURADO e, em seguida, adicione o registro como acima indicado, mas precedendo o número com [PROCURADO].</p>
-        <p>Os cidadãos que cooperam com as Forças de Vigilância podem receber Créditos Sociais à discrição da unidade, registrada como “COOPERAÇÃO”.</p>
-        <h3>Estados</h3>
+        <p>Os cidadãos que cooperam com as Forças de Vigilância podem receber Atos Civícos Documentados à discrição da unidade, registrada como “COOPERAÇÃO”.</p>
+        <h4>Estados</h4>
         <p>Aos cidadãos é atribuído um estado com base na sua posição aos olhos da Vigilância. Estes podem ser modificados pelas unidades da Guarda Civil Metropolitana através do seu ADP (Assistente Digital Pessoal).</p>
-        <h3>Cidadão</h3>
+        <h4>Cidadão</h4>
         <p>Um membro normal e livre da força laboral da cidade.</p>
-        <h3>Detido</h3>
+        <h4>Detido</h4>
         <p>Um prisioneiro que está atualmente detido e cumprindo a sua pena no bloco de detenção.</p>
-        <h3>Procurado</h3>
+        <h4>Procurado</h4>
         <p>Uma pessoa de interesse que é procurada por uma violação do código municipal. Isto irá alertar todas as câmeras próximas.</p>
-        <h3>ANTI-CIDADÃO</h3>
+        <h4>ANTI-CIDADÃO</h4>
         <p>Um maligno operando na cidade cuja cidadania foi revogada. Isso alertará todas as câmeras próximas.</p>
         <h2 id="indiceestabilidade">Índice de Estabilização Política</h2>
         <p>O Índice de Estabilização Politica representa a estabilidade geral do distrito. Existem vários níveis diferentes que determinam o modo de funcionamento da Guarda Civil Metropolitana.</p>
@@ -243,14 +243,14 @@
         <p>Os funcionários não têm autoridade sobre a Guarda Civil Metropolitana e são considerados membros normais da força laboral pela Vigilância. No entanto, a cooperação em tarefas como a busca de bens e a recuperação de equipamento pode revelar-se benéfica para a manutenção da eficiência da cidade.</p>
         <h2>Operações Especiais</h2>
         <h3>Inspeção de Identificação de Prioridade</h3>
-        <p>Uma inspeção de identificação prioritário é iniciado pelo COPOM e consiste na chamada e inspeção sistemáticas de um bloco residencial para encontrar contrabandos e não cidadãos.</p>
+        <p>Uma inspeção de identificação prioritário é iniciado pela Central e consiste na chamada e inspeção sistemáticas de um bloco residencial para encontrar contrabandos e não cidadãos.</p>
         <p>A Guarda Civil Metropolitana deve bloquear as entradas e iniciar uma busca em cada quarto e nos seus ocupantes para encontrar contrabando, cidadãos não delegados e violações do código.</p>
         <p>Os ocupantes que não mantiverem a sua área de habitação em um padrão adequado, como por exemplo não ter uma televisão funcionando, estão sujeitos a uma acusação de 99 OPERAÇÃO IMPRUDENTE.</p>
         <p>Os indivíduos que se encontram fora do local de inspeção que lhes foi atribuído (o seu apartamento ou, no caso dos não atribuídos, o saguão do seu bloco residencial) durante todo o tempo são acusados de 505 COMPORTAMENTO EVASIVO.</p>
         <h3>Esterilização de Testemunhas</h3>
         <p><b>Nota:</b> A esterilização de testemunhas resultará sempre em NLR.</p>
         <p>A esterilização de testemunhas consiste na amputação de membros da força laboral que tenham testemunhado um acontecimento que comprometa a integridade do Império, ou que tenham sido involuntariamente expostos a informações sensíveis.</p>
-        <p>Os indivíduos designados para a esterilização de testemunhas devem ser selecionados, contidos, pacificados e transportados para a jurisdição de estabilização para serem amputados da população cívica. Pode ocorrer, a menos que seja declarado de outra forma por um LP ou COPOM.</p>
+        <p>Os indivíduos designados para a esterilização de testemunhas devem ser selecionados, contidos, pacificados e transportados para a jurisdição de estabilização para serem amputados da população cívica. Pode ocorrer, a menos que seja declarado de outra forma por um LP ou Central.</p>
         <p>Pessoas que tentam resistir ou fugir da esterilização de testemunhas são acusadas de 505 COMPORTAMENTO EVASIVO e podem ser imediatamente amputadas.</p>
         <div style="align-items: flex-start;" class="imagemDireita">
             <div class="textoEsquerda">
@@ -316,7 +316,7 @@
                     <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Falha em realizar as <a href="gcm.html#operacoesCid">operações da cidade</a>.</td>
                 </tr>
                 <tr>
-                    <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Não cumprir imediatamente uma ordem dada pelo COPOM ou pelos Líderes de Patente.</td>
+                    <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Não cumprir imediatamente uma ordem dada pela Central ou pelos Líderes de Patente.</td>
                 </tr>
                 <tr>
                     <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Utilização incorrecta do PDA, ou seja, emissão de acusações erradas ou deduções de pontos.</td>
@@ -331,7 +331,7 @@
             <tbody>
                 <tr>
                     <td style="border: 1px solid #666; padding: 2px 5px;" rowspan="1">243</td>
-                    <td style="border: 1px solid #666; padding: 2px 5px;" rowspan="1">AGRESSÃO À EQUIPE DE PROTEÇÃO</td>
+                    <td style="border: 1px solid #666; padding: 2px 5px;" rowspan="1">ATAQUE À EQUIPE DE PROTEÇÃO</td>
                     <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; padding: 2px 5px; border: 1px solid #666;">Violação do <a href="terminologia.html">protocolo de terminologia coesa</a>.</td>
                 </tr>
                 <tr>
@@ -348,7 +348,7 @@
                 <tr>
                     <td style="border: 1px solid #666; padding: 2px 5px;" rowspan="2">105</td>
                     <td style="border: 1px solid #666; padding: 2px 5px;" rowspan="2">MÁ-COMPLACÊNCIA CAPITAL</td>
-                    <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Desobedecer diretamente a uma ordem dada pelo COPOM ou Líder de Patente.</td>
+                    <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Desobedecer diretamente a uma ordem dada pela Central ou Líder de Patente.</td>
                 </tr>
                 <tr>
                     <td style="width:600px; background-color: #4c4c4c; padding: 2px 5px; border: 1px solid #666;">Acumular duas deduções de pontos de classificação (-50%) durante um determinado período de tempo.</td>
@@ -366,17 +366,25 @@
         <p>Vortigaunts livres ou sem algemas estão sujeitos a um veredito terminal imediato.</p>
         <h2>Relacionamento com a Gestão Municipal</h2>
         <p><i>Mais informações: <a href="conselho.html">Conselho de Segurança da Cidade 11</a></i></p>
-        <p>Administração, Gestão, ou Ativo de Alta Prioridade, é o termo que inclui todos os membros do Conselho de Segurança da Cidade 11 e da rede de administração global mais ampla. Esses indivíduos não são membros da <a href="forcalaboral.html">força laboral</a> civil, mas são identificados por sua posição no gabinete local. A Guarda Civil Metropolitana não deve interferir em suas funções em nenhum momento sem diretrizes específicas vindas do COPOM.</p>
+        <p>Administração, Gestão, ou Ativo de Alta Prioridade, é o termo que inclui todos os membros do Conselho de Segurança da Cidade 11 e da rede de administração global mais ampla. Esses indivíduos não são membros da <a href="forcalaboral.html">força laboral</a> civil, mas são identificados por sua posição no gabinete local. A Guarda Civil Metropolitana não deve interferir em suas funções em nenhum momento sem diretrizes específicas vindas da Central.</p>
         <h3>Ministério da Segurança Pública</h3>
         <p><i>Mais informações: <a href="miniseguranca.html">Ministério da Segurança Pública</a></i></p>
         <p>O Ministério da Segurança Pública é responsável pela ligação entre a Guarda Civil Metropolitana e o resto do Conselho de Segurança. Oficiais do Ministério da Segurança Pública fazem isso monitorando as atividades das unidades terrestres, atualizando os Líderes de Patente sobre diretivas e mandatos e se comunicando com os outros ministérios para priorizar resoluções de segurança.</p>
-        <p>O Comissário e o Ministro da Segurança Pública são os únicos dois burocratas com autoridade direta sobre as unidades e operações da Guarda Civil Metropolitana, desde que a execução dessa autoridade não contrarie o COPOM.</p>
+        <p>O Comissário e o Ministro da Segurança Pública são os únicos dois burocratas com autoridade direta sobre as unidades e operações da Guarda Civil Metropolitana, desde que a execução dessa autoridade não contrarie a Central.</p>
         <h3>Ministério da Energia</h3>
         <p><i>Mais informações: <a href="miniseguranca.html">Ministério da Energia</a></i></p>
-        <p>O órgão responsável pela propaganda, <a href="gestao_publica.html">Gestão Pública</a> e cotas da <a href="forcalaboral.html">força laboral</a> é o <a href="minienergia.html">Ministério da Energia</a> - consistindo de um conselho de Conselheiros e um Ministro. Esses oficiais não têm autoridade sobre as operações das Forças de Vigilância sem confirmação prévia do Ministério da Segurança Pública ou COPOM.</p>
+        <p>O órgão responsável pela propaganda, <a href="gestao_publica.html">Gestão Pública</a> e cotas da <a href="forcalaboral.html">força laboral</a> é o <a href="minienergia.html">Ministério da Energia</a> - consistindo de um conselho de Conselheiros e um Ministro. Esses oficiais não têm autoridade sobre as operações das Forças de Vigilância sem confirmação prévia do Ministério da Segurança Pública ou Central.</p>
         <h2>Controles Importantes</h2>
         <div class="blocoColoridoTexto">
-            COMING SOON...
+            F1: Abre o menu de interação.
+            F2: Abre o PDA.
+            /gcm <mensagem>: Transmite uma mensagem no canal geral da Guarda Civil Metropolitana.
+            /ep <mensagem>: Transmite uma mensagem para a sua equipe de proteção.
+            /codigo1: Implanta um ponto de referência geral.
+            /codigo2: Implanta um ponto de código 2.
+            /codigo3: Implanta um ponto de referência de código 3.
+            /amputar <acusação>: Bane o personagem da próxima pessoa que você matar (dentro de 30 segundos)
+            /chutarporta: Arromba a porta que você está olhando.
         </div>
     </main>
 </body>
