@@ -169,7 +169,6 @@ ul ul {
 #conteudo {
     border: solid #280c2c 1px;
     padding: 15px;
-    /* width: 100%; */
     background-color: #333;
     border-right: 0;
     margin-right: 0;
@@ -337,4 +336,10 @@ tr.imagemFaccaoDesc td {
     margin: 12px 0;
     font-family: monospace, sans-serif;
     font-size: 12px;
+}
+
+@media screen and (min-width:899px) {
+    #conteudo {
+        width: 100%;
+    }
 }
