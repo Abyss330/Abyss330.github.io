@@ -169,7 +169,7 @@ ul ul {
 #conteudo {
     border: solid #280c2c 1px;
     padding: 15px;
-    width: 100%;
+    /* width: 100%; */
     background-color: #333;
     border-right: 0;
     margin-right: 0;
