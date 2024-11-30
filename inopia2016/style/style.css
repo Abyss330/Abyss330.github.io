@@ -345,3 +345,16 @@ tr.imagemFaccaoDesc td {
         width: 100%;
     }
 }
+
+@media screen and (max-width:800px) {
+    .imagemDireita {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .paginaImagemFac {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
