@@ -56,7 +56,9 @@ header {
 }
 
 #logoNav img {
-    height: 160px;
+    height: 130px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 header ul {
@@ -103,7 +105,7 @@ header span {
 }
 
 #paginaPrincipal > img {
-    height: 300px;
+    height: 250px;
 }
 
 h1#nomePagina {
