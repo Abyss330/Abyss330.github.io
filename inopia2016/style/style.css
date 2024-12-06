@@ -357,4 +357,8 @@ tr.imagemFaccaoDesc td {
         display: flex;
         flex-direction: column-reverse;
     }
+
+    header {
+        display: none;
+    }
 }
