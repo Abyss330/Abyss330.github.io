@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+body{
+    font-size: 12px;
+    background-color: #000000;
+    color: #688ba8;;
+    margin: 0;
+}
+
+#logoDiv {
+    background-color: #262626;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#logoDiv img {
+    width: 200px;
+}
+
+#pagina {
+    display: flex;
+    gap: 50px;
+}
+
+main {
+    width: 93%;
+    background-color: #262626;
+    border: 1px solid #404040;
+    border-right: 0;
+    color: white;
+    padding: 25px;
+}
+
+nav {
+    margin-left: 30px;
+    width: 7%;
+    border-bottom: 1px solid #65635f;
+    max-height: fit-content;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+nav ul li a {
+    color: #688BA8;
+    font-size: 12px;
+}
+
+li {
+    list-style: square;
+    color: #b9b7b5;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: normal;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #65635f;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #65635f;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 16.8px;
+    font-weight: normal;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #65635f;
+    margin-top: 25px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+a {
+    color: #5081D1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-left: 225px;
+}
+
+main p {
+    color: #b9b7b5;
+}
+
+p {
+    color: #8BB9E0;
+}
+
+.blocoBranco {
+    background-color: #D8D7D6;
+    
+    width: 100%;
+    margin: 11px 0;
+    border: 1px solid;
+    border-left: 6px solid #666666;
+}
+
+.blocoBranco > p {
+    color: #000000;
+    font-size: 11px;
+    margin-left: 11px;
+    font-family: monospace, sans-serif;
+}
+
+.blocoBranco ul {
+    padding: 0;
+    margin: 11px 0;
+}
+
+.blocoBranco li {
+    color: #000000;
+    font-size: 11px;
+    margin-left: 11px;
+    margin-bottom: 0px;
+    list-style: none;
+    font-family: monospace, sans-serif;
+}
+
+table {
+    border: 1px solid #65635f;
+    color: #B9B7B5;
+    font-size: 11px;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    border: 1px solid #65635f;
+    padding: 2px 4px;
+    padding: 6px;
+}
