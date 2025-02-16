@@ -162,3 +162,19 @@ td {
     padding: 2px 4px;
     padding: 6px;
 }
+
+.imagemDireita {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.imagemDireita img {
+    border: 1px solid #65635f;
+}
+
+.imagem {
+    padding: 5px;
+    border: 1px solid #65635f;
+    background-color: #353535;
+}
