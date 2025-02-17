@@ -163,6 +163,12 @@ td {
     padding: 6px;
 }
 
+th {
+    border: 1px solid #65635f;
+    padding: 2px 4px;
+    padding: 6px;
+}
+
 .imagemDireita {
     display: flex;
     gap: 30px;
