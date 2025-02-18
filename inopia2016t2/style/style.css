@@ -157,6 +157,10 @@ table {
     width: 50%;
 }
 
+.tableMaior{
+    width: 80%;
+}
+
 td {
     border: 1px solid #65635f;
     padding: 2px 4px;
