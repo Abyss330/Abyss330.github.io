@@ -5,6 +5,7 @@ html {
 * {
     font-family: sans-serif;
     font-size: 11px;
+    box-sizing: border-box;
 }
 
 body{
@@ -157,8 +158,24 @@ table {
     width: 50%;
 }
 
+.tableMediaMenor{
+    width: 25%;
+}
+
+.tableMedia{
+    width: 35%;
+}
+
 .tableMaior{
     width: 80%;
+}
+
+.tableMenor{
+    width: 15%;
+}
+
+.tableMenor td{
+    padding: 5px;
 }
 
 td {
@@ -187,4 +204,32 @@ th {
     padding: 5px;
     border: 1px solid #65635f;
     background-color: #353535;
+}
+
+@media screen and (max-width:1800px) {
+    .imagemDireita {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:800px) {
+    nav {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+    }
+    #logoDiv {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .imagem {
+        display: none;
+    }
 }
