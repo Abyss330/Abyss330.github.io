@@ -3,103 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>INÓPIA: 2016</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/logo.png">
 </head>
 <body>
-    <header>
+    <nav>
         <div id="logoNav">
-            <a href="index.html"><img src="assets/logo.png"></a>
+            <a href=""><img class="logoServidorPequena" src="assets/logo.png" alt="Logo servidor pequena"></a>
         </div>
-        <nav>
-            <ul id="navImportante">
-                <li><a href="index.html">Página Principal</a></li>
-                <li><a href="paginas/regras.html">Regras</a></li>
-                <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3364334908">Coleção</a></li>
+        <div id="navImportante">
+            <ul>
+                <li><a href="">Página Principal</a></li>
+                <li><a href="paginas/regras">Regras</a></li>
+                <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3364334908">Addons</a></li>
             </ul>
+        </div>
+        <div id="linksImportantes">
             <span>Links Importantes</span>
-            <ul id="navLinks">
+            <ul>
                 <li><a href="https://discord.gg/BQHJKV3YuU">Servidor do Discord</a></li>
-                <li><a>Conectar ao Servidor</a></li>
+                <li><a href="">Conectar no servidor</a></li>
                 <li><a href="https://steamcommunity.com/groups/inopia">Grupo da Steam</a></li>
             </ul>
-        </nav>
-    </header>
-    <main id="paginaPrincipal">
-        <h1 id="nomePagina">Página Principal</h1>
-        <img src="assets/logo.png">
-        <h1>INÓPIA: 2016</h1>
-        <p>Este wiki é um repositório essencial para informações sobre facções e jogabilidade.</p>
-        <div id="sumario">
-            <table>
-                <tbody>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <h2>Diretrizes do Servidor</h2>
-                            <ul>
-                                <li><a href="paginas/regras.html">Regras</a></li>
-                                <li><a href="paginas/sobre.html">Sobre</a></li>
-                                <li><a href="paginas/faq.html">FAQ</a></li>
-                            </ul>
-                        </td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2><a href="paginas/forcas.html">Forças Overwatch</a></h2>
-                            <ul>
-                                <li><a href="paginas/pc.html">Proteção Civil</a>
-                                    <ul>
-                                        <li><a href="paginas/codigos.html">Códigos da Cidade</a></li>
-                                        <li><a href="paginas/indice.html">Índice de Localização</a></li>
-                                        <li><a href="paginas/terminologia.html">Terminologia</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="paginas/fo.html">Forças Transumanas</a></li>
-                            </ul>
-                        </td>
-                        <td>
-                            <h2><a href="paginas/forcadetrabalho.html">Força de Trabalho</a></h2>
-                            <ul>
-                                <li><a href="paginas/cidadaos.html">Cidadãos</a>
-                                    <ul>
-                                        <li><a href="paginas/gestao_publica.html">Gestão Pública</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="paginas/vortigaunts.html">Bióticos</a></li>
-                                <li style="visibility: hidden;"></li>
-                                <li style="visibility: hidden;"></li>
-                            </ul>
-                        </td>
-                        <td>
-                            <h2><a href="paginas/ministerio.html">Ministério</a></h2>
-                            <ul>
-                                <li><a href="paginas/conselho.html">Conselho de Segurança da Cidade 11</a>
-                                    <ul>
-                                        <li><a href="paginas/minienergia.html">Ministério da Energia</a></li>
-                                        <li><a href="paginas/minipc.html">Ministério da Proteção Civil</a></li>
-                                    </ul>
-                                    <li style="visibility: hidden;"></li>
-                                    <li style="visibility: hidden;"></li>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <h2>O Mundo</h2>
-                            <ul>
-                                <li><a href="paginas/introducao.html">Introdução</a></li>
-                                <li><a href="paginas/cidades.html">Cidades</a></li>
-                            </ul>
-                        </td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
+    </nav>
+    <main id="mainPaginaPrincipal">
+        <h1 class="tituloPagina">Página Principal</h1>        
+        <div class="textoCentralizado">
+            <img id="logoServidorGrande" src="assets/logo.png" alt="Logo do servidor">
+            <h2 id="tituloServidor">INÓPIA: 2016</h2>
+            <p id="subtituloServidor">Esta wiki é um repositório essencial de informações sobre facções e jogabilidade.</p>
+        </div>
+        <table style="width: 60%; margin-left: auto; margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td style="vertical-align: top; width:33%;">
+                        <h2>
+                            <div class="textoCentralizado">
+                                Diretrizes do Servidor
+                            </div>
+                        </h2>
+                        <ul>
+                            <li><a href="paginas/regras">Regras</a></li>
+                            <li><a href="paginas/sobre">Sobre</a></li>
+                            <li><a href="paginas/faq">FAQ</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; width:33%;">
+                        <h2>
+                            <div class="textoCentralizado">
+                                <a href="paginas/forcas_da_overwatch">Forças da Overwatch</a>
+                            </div>
+                        </h2>
+                        <ul>
+                            <li><a href="paginas/regras">Proteção Civil</a></li>
+                            <ul>
+                                <li><a href="paginas/sobre">Códigos da Cidade</a></li>
+                                <li><a href="paginas/sobre">Índice de Localizações</a></li>
+                                <li><a href="paginas/sobre">Terminologia</a></li>
+                            </ul>
+                            <li><a href="paginas/faq/">Overwatch</a></li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top; width:33%;">
+                        <h2>
+                            <div class="textoCentralizado">
+                                <a href="paginas/forca_de_trabalho">Força de Trabalho</a>
+                            </div>
+                        </h2>
+                        <ul>
+                            <li><a href="paginas/cidadaos">Cidadãos</a></li>
+                            <ul>
+                                <li><a href="paginas/gestao_publica">Gestão Pública</a></li>
+                            </ul>
+                            <li><a href="paginas/vortigaunts">Vortigaunts</a></li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top; width:33%;">
+                        <h2>
+                            <div class="textoCentralizado">
+                                <a href="paginas/ministerio">Ministério</a>
+                            </div>
+                        </h2>
+                        <ul>
+                            <li><a href="paginas/conselho_de_seguranca">Conselho de Segurança da Cidade 11</a></li>
+                            <ul>
+                                <li><a href="paginas/ministerio_da_energia">Ministério da Energia</a></li>
+                                <li><a href="paginas/ministerio_da_protecao_civil">Ministério da Proteção Civil</a></li>
+                            </ul>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                        <td style="vertical-align: top; width:33%;">
+                        <h2>
+                            <div class="textoCentralizado">
+                                O Mundo
+                            </div>
+                        </h2>
+                        <ul>
+                            <li><a href="paginas/introducao">Introdução</a></li>
+                            <li><a href="paginas/cidades">Cidades</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 </body>
 </html>
