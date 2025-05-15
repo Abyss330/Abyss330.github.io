@@ -80,6 +80,33 @@ main {
     clear: both;
 }
 
+.imagemLateral {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.imagemDireita {
+    border: solid 1px #666;
+    padding: 3px;
+    background-color: #4c4c4c;
+    display: grid;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.imagemDireita img {
+    border: solid 1px #c8ccd1;
+}
+
+.imagemDireita span {
+    text-align: left;
+    font-size: 10.8241px;
+    padding: 3px;
+}
+
 /* Menu Lateral */
 
 nav {
