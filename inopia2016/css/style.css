@@ -28,7 +28,7 @@ h2 {
 
 h4 {
     font-family: 'Roboto';
-    font-size: 14.7px;
+    font-size: 16.5375px;
     font-weight: 300;
     margin-top: 4.410px;
     padding-top: 7.350px;
@@ -92,6 +92,12 @@ main {
 
 .code p {
     margin: 3px 0;
+}
+
+.tabelaLateral {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
 
 .imagemLateral {
