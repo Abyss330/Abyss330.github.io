@@ -51,7 +51,7 @@ ul {
     margin-left: 19.600px;
 }
 
-li {
+ul li {
     list-style-image: url('../assets/pontinho.svg');
     margin: 3px 0;
 }
