@@ -80,6 +80,20 @@ main {
     clear: both;
 }
 
+.code {
+    font-size: 12.25px;
+    font-family: monospace;
+    color: #c1c1c1;
+    background-color: #4c4c4c;
+    border-color: #666;
+    padding: 12.250px;
+    margin: 12.250px 0;
+}
+
+.code p {
+    margin: 3px 0;
+}
+
 .imagemLateral {
     display: flex;
     align-items: start;
